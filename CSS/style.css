@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.header{
+    background-color: rgb(233, 238, 127);
+    color: blueviolet;
+    height: 80px;
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+
+.manu{
+    background-color: green;
+    /* color: whitesmoke; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+
+.manu a{
+    color: white;
+    text-decoration: none;
+}
+
+.manu a :hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+main{
+    display:flex ;
+    height: 500px;
+}
+.main-container{
+    width: 60%;
+
+
+  
+    /* justify-content: center; */
+    align-items: center;
+    background-color: maroon;
+    color: white;
+
+}
+
+.left-container{
+   
+    width: 20%;
+    /* height: 10px; */
+    background-color: rgb(0, 55, 0);
+    color: white;
+}
+
+.right-container{
+
+    width: 20%;
+    /* height: 10px; */
+    background-color: rgb(0, 55, 0);
+    color: white;
+}
+
+.footer{
+    background-color: coral;
+    color: whitesmoke;
+    /* text-align: center; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    border-radius: 100%;
+
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 100%;
+
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 100%;
+}
